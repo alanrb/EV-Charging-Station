@@ -1,5 +1,6 @@
 # Add Flutter to existing app
 
+[https://alanrb.medium.com/add-flutter-to-existing-app-cd0d16883437](https://alanrb.medium.com/add-flutter-to-existing-app-cd0d16883437)
 
 ![Screenshot](https://raw.githubusercontent.com/alanrb/EV-Charging-Station/main/screenshot/ios_main.png)
 
@@ -258,7 +259,7 @@ some/path/
 - For example, you can drag the frameworks from  `some/path/EVChargingStationiOS/Flutter/Release/`  in Finder into your target’s  **Build Settings > Build Phases > Link Binary With Libraries**.
 
 - In the target’s build settings, add  `$(PROJECT_DIR)/Flutter/Release/`  to the  **Framework Search Paths**  (`FRAMEWORK_SEARCH_PATHS`).
-![Screenshot](https://raw.githubusercontent.com/alanrb/EV-Charging-Station/main/screenshot/xc_search_path)
+![Screenshot](https://raw.githubusercontent.com/alanrb/EV-Charging-Station/main/screenshot/xc_search_path.png)
 
 - By **Build Settings > User-defined**, add a `FLUTTER_ROOT` as the Flutter sdk path.
 ![Screenshot](https://raw.githubusercontent.com/alanrb/EV-Charging-Station/main/screenshot/xc_sdk_path.png)
