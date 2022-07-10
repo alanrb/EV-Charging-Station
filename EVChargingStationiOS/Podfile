@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'EVChargingStationiOS' do
+  use_frameworks!
+
+  pod 'SwiftyJSON'
+  pod 'Alamofire'
+  pod 'AlamofireImage'
+  pod 'Flutter', :podspec => 'Flutter/Debug/Flutter.podspec'
+
+end

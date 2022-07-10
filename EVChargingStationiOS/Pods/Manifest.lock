@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - Flutter (3.0.400)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - Flutter (from `Flutter/Debug/Flutter.podspec`)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Flutter:
+    :podspec: Flutter/Debug/Flutter.podspec
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  Flutter: 9ea36a02f51190ff03c85f23af6fb6e619233cba
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 7e7b9b78a9a1bb89d1a405282069ccc29ce09266
+
+COCOAPODS: 1.11.3

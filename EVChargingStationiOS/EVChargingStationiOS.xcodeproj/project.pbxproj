@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4004AC609B84B057C48C0D49 /* Pods_EVChargingStationiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C8F7FE07BB66BFF7370321 /* Pods_EVChargingStationiOS.framework */; };
+		E71F9D5B286E793700CBEABD /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F9D5A286E793700CBEABD /* MainVC.swift */; };
+		E751A0C7286DA4320023ECC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751A0C6286DA4320023ECC6 /* AppDelegate.swift */; };
+		E751A0C9286DA4320023ECC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751A0C8286DA4320023ECC6 /* SceneDelegate.swift */; };
+		E751A0CE286DA4320023ECC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E751A0CC286DA4320023ECC6 /* Main.storyboard */; };
+		E751A0D1286DA4320023ECC6 /* EVChargingStationiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E751A0CF286DA4320023ECC6 /* EVChargingStationiOS.xcdatamodeld */; };
+		E751A0D3286DA4330023ECC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E751A0D2286DA4330023ECC6 /* Assets.xcassets */; };
+		E751A0D6286DA4330023ECC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E751A0D4286DA4330023ECC6 /* LaunchScreen.storyboard */; };
+		E7B85CB52877BC06005FEA0E /* StationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B85CB42877BC06005FEA0E /* StationDetailsVC.swift */; };
+		E7C570732879B3CE00B0643E /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C570702879AB5300B0643E /* App.xcframework */; };
+		E7C570762879B3D000B0643E /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5706F2879AB5300B0643E /* FlutterPluginRegistrant.xcframework */; };
+		E7C570792879B43900B0643E /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C570782879B43900B0643E /* Flutter.xcframework */; };
+		E7C5707F2879B7B100B0643E /* shared_preferences_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5707B2879B7B100B0643E /* shared_preferences_ios.xcframework */; };
+		E7C570802879B7B100B0643E /* path_provider_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5707C2879B7B100B0643E /* path_provider_ios.xcframework */; };
+		E7C570812879B7B100B0643E /* sqflite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5707D2879B7B100B0643E /* sqflite.xcframework */; };
+		E7C570832879B7D100B0643E /* FMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C570822879B7D100B0643E /* FMDB.xcframework */; };
+		E7C570882879BEBA00B0643E /* StationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C570872879BEBA00B0643E /* StationModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9652CC6F76DBF38BCFED0174 /* Pods-EVChargingStationiOS.release-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVChargingStationiOS.release-prod.xcconfig"; path = "Target Support Files/Pods-EVChargingStationiOS/Pods-EVChargingStationiOS.release-prod.xcconfig"; sourceTree = "<group>"; };
+		A2ED28DB0389C6EB8EB0C3D4 /* Pods-EVChargingStationiOS.release-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVChargingStationiOS.release-dev.xcconfig"; path = "Target Support Files/Pods-EVChargingStationiOS/Pods-EVChargingStationiOS.release-dev.xcconfig"; sourceTree = "<group>"; };
+		CD18A26C9A18293C071F7381 /* Pods-EVChargingStationiOS.debug-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVChargingStationiOS.debug-prod.xcconfig"; path = "Target Support Files/Pods-EVChargingStationiOS/Pods-EVChargingStationiOS.debug-prod.xcconfig"; sourceTree = "<group>"; };
+		D9C8F7FE07BB66BFF7370321 /* Pods_EVChargingStationiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVChargingStationiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71F9D5A286E793700CBEABD /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E751A0C3286DA4320023ECC6 /* EVChargingStationiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVChargingStationiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E751A0C6286DA4320023ECC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E751A0C8286DA4320023ECC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E751A0CD286DA4320023ECC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E751A0D0286DA4320023ECC6 /* EVChargingStationiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EVChargingStationiOS.xcdatamodel; sourceTree = "<group>"; };
+		E751A0D2286DA4330023ECC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E751A0D5286DA4330023ECC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E751A0D7286DA4330023ECC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B85CB42877BC06005FEA0E /* StationDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsVC.swift; sourceTree = "<group>"; };
+		E7C5706F2879AB5300B0643E /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = Flutter/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		E7C570702879AB5300B0643E /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = Flutter/Debug/App.xcframework; sourceTree = "<group>"; };
+		E7C570782879B43900B0643E /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = Pods/Flutter/Flutter.xcframework; sourceTree = "<group>"; };
+		E7C5707A2879B7B100B0643E /* geolocator_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = geolocator_apple.xcframework; path = Flutter/Debug/geolocator_apple.xcframework; sourceTree = "<group>"; };
+		E7C5707B2879B7B100B0643E /* shared_preferences_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = shared_preferences_ios.xcframework; path = Flutter/Debug/shared_preferences_ios.xcframework; sourceTree = "<group>"; };
+		E7C5707C2879B7B100B0643E /* path_provider_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_ios.xcframework; path = Flutter/Debug/path_provider_ios.xcframework; sourceTree = "<group>"; };
+		E7C5707D2879B7B100B0643E /* sqflite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = sqflite.xcframework; path = Flutter/Debug/sqflite.xcframework; sourceTree = "<group>"; };
+		E7C570822879B7D100B0643E /* FMDB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FMDB.xcframework; path = Flutter/Debug/FMDB.xcframework; sourceTree = "<group>"; };
+		E7C570872879BEBA00B0643E /* StationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationModel.swift; sourceTree = "<group>"; };
+		FF5A690C8A9B74188142F18E /* Pods-EVChargingStationiOS.debug-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVChargingStationiOS.debug-dev.xcconfig"; path = "Target Support Files/Pods-EVChargingStationiOS/Pods-EVChargingStationiOS.debug-dev.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E751A0C0286DA4320023ECC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C570792879B43900B0643E /* Flutter.xcframework in Frameworks */,
+				E7C570762879B3D000B0643E /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				E7C570732879B3CE00B0643E /* App.xcframework in Frameworks */,
+				E7C5707F2879B7B100B0643E /* shared_preferences_ios.xcframework in Frameworks */,
+				E7C570802879B7B100B0643E /* path_provider_ios.xcframework in Frameworks */,
+				E7C570812879B7B100B0643E /* sqflite.xcframework in Frameworks */,
+				E7C570832879B7D100B0643E /* FMDB.xcframework in Frameworks */,
+				4004AC609B84B057C48C0D49 /* Pods_EVChargingStationiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		825E11F69FDCE6F6DCC7F289 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD18A26C9A18293C071F7381 /* Pods-EVChargingStationiOS.debug-prod.xcconfig */,
+				FF5A690C8A9B74188142F18E /* Pods-EVChargingStationiOS.debug-dev.xcconfig */,
+				9652CC6F76DBF38BCFED0174 /* Pods-EVChargingStationiOS.release-prod.xcconfig */,
+				A2ED28DB0389C6EB8EB0C3D4 /* Pods-EVChargingStationiOS.release-dev.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B85B29B4A25F49AADF1755EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7C570822879B7D100B0643E /* FMDB.xcframework */,
+				E7C5707A2879B7B100B0643E /* geolocator_apple.xcframework */,
+				E7C5707C2879B7B100B0643E /* path_provider_ios.xcframework */,
+				E7C5707B2879B7B100B0643E /* shared_preferences_ios.xcframework */,
+				E7C5707D2879B7B100B0643E /* sqflite.xcframework */,
+				E7C570782879B43900B0643E /* Flutter.xcframework */,
+				E7C570702879AB5300B0643E /* App.xcframework */,
+				E7C5706F2879AB5300B0643E /* FlutterPluginRegistrant.xcframework */,
+				D9C8F7FE07BB66BFF7370321 /* Pods_EVChargingStationiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E751A0BA286DA4320023ECC6 = {
+			isa = PBXGroup;
+			children = (
+				E751A0C5286DA4320023ECC6 /* EVChargingStationiOS */,
+				E751A0C4286DA4320023ECC6 /* Products */,
+				825E11F69FDCE6F6DCC7F289 /* Pods */,
+				B85B29B4A25F49AADF1755EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E751A0C4286DA4320023ECC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E751A0C3286DA4320023ECC6 /* EVChargingStationiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E751A0C5286DA4320023ECC6 /* EVChargingStationiOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7C570862879BE0C00B0643E /* Entities */,
+				E751A0C6286DA4320023ECC6 /* AppDelegate.swift */,
+				E751A0C8286DA4320023ECC6 /* SceneDelegate.swift */,
+				E751A0CC286DA4320023ECC6 /* Main.storyboard */,
+				E751A0D2286DA4330023ECC6 /* Assets.xcassets */,
+				E751A0D4286DA4330023ECC6 /* LaunchScreen.storyboard */,
+				E751A0D7286DA4330023ECC6 /* Info.plist */,
+				E751A0CF286DA4320023ECC6 /* EVChargingStationiOS.xcdatamodeld */,
+				E71F9D5A286E793700CBEABD /* MainVC.swift */,
+				E7B85CB42877BC06005FEA0E /* StationDetailsVC.swift */,
+			);
+			path = EVChargingStationiOS;
+			sourceTree = "<group>";
+		};
+		E7C570862879BE0C00B0643E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E7C570872879BEBA00B0643E /* StationModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E751A0C2286DA4320023ECC6 /* EVChargingStationiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E751A0DA286DA4330023ECC6 /* Build configuration list for PBXNativeTarget "EVChargingStationiOS" */;
+			buildPhases = (
+				A0990BCA4524DD8E7218C9FC /* [CP] Check Pods Manifest.lock */,
+				E71F9D5E286E7B8500CBEABD /* ShellScript */,
+				E751A0BF286DA4320023ECC6 /* Sources */,
+				E751A0C0286DA4320023ECC6 /* Frameworks */,
+				E751A0C1286DA4320023ECC6 /* Resources */,
+				E70B7000286E7BB8006C268B /* Thin Binary */,
+				E2FAF8508C25F6A3576A5044 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVChargingStationiOS;
+			productName = EVChargingStationiOS;
+			productReference = E751A0C3286DA4320023ECC6 /* EVChargingStationiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E751A0BB286DA4320023ECC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E751A0C2286DA4320023ECC6 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = E751A0BE286DA4320023ECC6 /* Build configuration list for PBXProject "EVChargingStationiOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E751A0BA286DA4320023ECC6;
+			productRefGroup = E751A0C4286DA4320023ECC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E751A0C2286DA4320023ECC6 /* EVChargingStationiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E751A0C1286DA4320023ECC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E751A0D6286DA4330023ECC6 /* LaunchScreen.storyboard in Resources */,
+				E751A0D3286DA4330023ECC6 /* Assets.xcassets in Resources */,
+				E751A0CE286DA4320023ECC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0990BCA4524DD8E7218C9FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EVChargingStationiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FAF8508C25F6A3576A5044 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVChargingStationiOS/Pods-EVChargingStationiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVChargingStationiOS/Pods-EVChargingStationiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EVChargingStationiOS/Pods-EVChargingStationiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E70B7000286E7BB8006C268B /* Thin Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Thin Binary";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin\n";
+		};
+		E71F9D5E286E7B8500CBEABD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E751A0BF286DA4320023ECC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E751A0D1286DA4320023ECC6 /* EVChargingStationiOS.xcdatamodeld in Sources */,
+				E71F9D5B286E793700CBEABD /* MainVC.swift in Sources */,
+				E751A0C7286DA4320023ECC6 /* AppDelegate.swift in Sources */,
+				E751A0C9286DA4320023ECC6 /* SceneDelegate.swift in Sources */,
+				E7C570882879BEBA00B0643E /* StationModel.swift in Sources */,
+				E7B85CB52877BC06005FEA0E /* StationDetailsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E751A0CC286DA4320023ECC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E751A0CD286DA4320023ECC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E751A0D4286DA4330023ECC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E751A0D5286DA4330023ECC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E751A0D8286DA4330023ECC6 /* Debug-prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-prod";
+		};
+		E751A0D9286DA4330023ECC6 /* Release-prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-prod";
+		};
+		E751A0DB286DA4330023ECC6 /* Debug-prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD18A26C9A18293C071F7381 /* Pods-EVChargingStationiOS.debug-prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8Q5Z74MEM;
+				FLUTTER_FRAMEWORK = Debug;
+				FLUTTER_ROOT = /Users/alan/Documents/Flutter/flutter;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inhereted)",
+					"$(PROJECT_DIR)/Flutter/$(FLUTTER_FRAMEWORK)/",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AlamofireImage\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EVChargingStationiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Flutter\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.alanrb.EVChargingStationiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-prod";
+		};
+		E751A0DC286DA4330023ECC6 /* Release-prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9652CC6F76DBF38BCFED0174 /* Pods-EVChargingStationiOS.release-prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8Q5Z74MEM;
+				FLUTTER_FRAMEWORK = Release;
+				FLUTTER_ROOT = /Users/alan/Documents/Flutter/flutter;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inhereted)",
+					"$(PROJECT_DIR)/Flutter/$(FLUTTER_FRAMEWORK)/",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AlamofireImage\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EVChargingStationiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Flutter\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.alanrb.EVChargingStationiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-prod";
+		};
+		E7C570622879958100B0643E /* Debug-dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-dev";
+		};
+		E7C570632879958100B0643E /* Debug-dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5A690C8A9B74188142F18E /* Pods-EVChargingStationiOS.debug-dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8Q5Z74MEM;
+				FLUTTER_FRAMEWORK = Debug;
+				FLUTTER_ROOT = /Users/alan/Documents/Flutter/flutter;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inhereted)",
+					"$(PROJECT_DIR)/Flutter/$(FLUTTER_FRAMEWORK)/",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AlamofireImage\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EVChargingStationiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Flutter\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.alanrb.EVChargingStationiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-dev";
+		};
+		E7C570642879958600B0643E /* Release-dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-dev";
+		};
+		E7C570652879958600B0643E /* Release-dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2ED28DB0389C6EB8EB0C3D4 /* Pods-EVChargingStationiOS.release-dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8Q5Z74MEM;
+				FLUTTER_FRAMEWORK = Release;
+				FLUTTER_ROOT = /Users/alan/Documents/Flutter/flutter;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inhereted)",
+					"$(PROJECT_DIR)/Flutter/$(FLUTTER_FRAMEWORK)/",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AlamofireImage\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EVChargingStationiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Flutter\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.alanrb.EVChargingStationiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-dev";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E751A0BE286DA4320023ECC6 /* Build configuration list for PBXProject "EVChargingStationiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E751A0D8286DA4330023ECC6 /* Debug-prod */,
+				E7C570622879958100B0643E /* Debug-dev */,
+				E751A0D9286DA4330023ECC6 /* Release-prod */,
+				E7C570642879958600B0643E /* Release-dev */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-prod";
+		};
+		E751A0DA286DA4330023ECC6 /* Build configuration list for PBXNativeTarget "EVChargingStationiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E751A0DB286DA4330023ECC6 /* Debug-prod */,
+				E7C570632879958100B0643E /* Debug-dev */,
+				E751A0DC286DA4330023ECC6 /* Release-prod */,
+				E7C570652879958600B0643E /* Release-dev */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-prod";
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E751A0CF286DA4320023ECC6 /* EVChargingStationiOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E751A0D0286DA4320023ECC6 /* EVChargingStationiOS.xcdatamodel */,
+			);
+			currentVersion = E751A0D0286DA4320023ECC6 /* EVChargingStationiOS.xcdatamodel */;
+			path = EVChargingStationiOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E751A0BB286DA4320023ECC6 /* Project object */;
+}

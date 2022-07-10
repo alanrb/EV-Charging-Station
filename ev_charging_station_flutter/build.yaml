@@ -1,0 +1,16 @@
+# Created by Tuong (Alan) on 07/07/2022.
+# Copyright (c) 2022. All rights reserved.
+#
+targets:
+  $default:
+    builders:
+      source_gen|combining_builder:
+        options:
+          ignore_for_file:
+            - implicit_dynamic_parameter
+      json_serializable:
+        options:
+          field_rename: snake
+          create_factory: true
+          create_to_json: true
+          checked: true

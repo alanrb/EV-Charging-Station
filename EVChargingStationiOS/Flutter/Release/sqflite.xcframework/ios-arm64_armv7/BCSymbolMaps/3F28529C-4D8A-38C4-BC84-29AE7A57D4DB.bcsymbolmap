@@ -1,0 +1,422 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.1.6 (clang-1316.0.21.2)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk
+iPhoneOS15.4.sdk
+/Users/alan/Documents/2.Personal/Apploki/EVChargingStation/EV-Charging-Station/EVChargingStationiOS/Flutter/Release/iphoneos/Pods.build/Release-iphoneos/sqflite.build/DerivedSources/sqflite_vers.c
+/Users/alan/Documents/2.Personal/Apploki/EVChargingStation/EV-Charging-Station/ev_charging_station_flutter/.ios/Pods
+__OBJC_METACLASS_RO_$_PodsDummy_sqflite
+__OBJC_CLASS_RO_$_PodsDummy_sqflite
+/Users/alan/Documents/2.Personal/Apploki/EVChargingStation/EV-Charging-Station/ev_charging_station_flutter/.ios/Pods/Target Support Files/sqflite/sqflite-dummy.m
+-[SqfliteOperation getMethod]
+-[SqfliteOperation getSql]
+-[SqfliteOperation getSqlArguments]
+-[SqfliteOperation getInTransactionArgument]
+-[SqfliteOperation getNoResult]
+-[SqfliteOperation getContinueOnError]
+-[SqfliteOperation success:]
+-[SqfliteOperation error:]
+-[SqfliteBatchOperation getMethod]
+-[SqfliteBatchOperation getSql]
+-[SqfliteBatchOperation getSqlArguments]
+-[SqfliteBatchOperation getInTransactionArgument]
+-[SqfliteBatchOperation getNoResult]
+-[SqfliteBatchOperation getContinueOnError]
+-[SqfliteBatchOperation success:]
+-[SqfliteBatchOperation error:]
+-[SqfliteBatchOperation handleSuccess:]
+-[SqfliteBatchOperation handleErrorContinue:]
+-[SqfliteBatchOperation handleError:]
+-[SqfliteBatchOperation dictionary]
+-[SqfliteBatchOperation setDictionary:]
+-[SqfliteBatchOperation results]
+-[SqfliteBatchOperation setResults:]
+-[SqfliteBatchOperation error]
+-[SqfliteBatchOperation setError:]
+-[SqfliteBatchOperation noResult]
+-[SqfliteBatchOperation setNoResult:]
+-[SqfliteBatchOperation continueOnError]
+-[SqfliteBatchOperation setContinueOnError:]
+-[SqfliteBatchOperation .cxx_destruct]
++[SqfliteMethodCallOperation newWithCall:result:]
+-[SqfliteMethodCallOperation getMethod]
+-[SqfliteMethodCallOperation getSql]
+-[SqfliteMethodCallOperation getNoResult]
+-[SqfliteMethodCallOperation getContinueOnError]
+-[SqfliteMethodCallOperation getSqlArguments]
+-[SqfliteMethodCallOperation getInTransactionArgument]
+-[SqfliteMethodCallOperation success:]
+-[SqfliteMethodCallOperation error:]
+-[SqfliteMethodCallOperation flutterMethodCall]
+-[SqfliteMethodCallOperation setFlutterMethodCall:]
+-[SqfliteMethodCallOperation flutterResult]
+-[SqfliteMethodCallOperation setFlutterResult:]
+-[SqfliteMethodCallOperation .cxx_destruct]
+__OBJC_METACLASS_RO_$_SqfliteOperation
+__OBJC_$_INSTANCE_METHODS_SqfliteOperation
+__OBJC_CLASS_RO_$_SqfliteOperation
+_OBJC_IVAR_$_SqfliteBatchOperation.dictionary
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_IVAR_$_SqfliteBatchOperation.noResult
+_OBJC_IVAR_$_SqfliteBatchOperation.continueOnError
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_CLASSLIST_REFERENCES_$_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_IVAR_$_SqfliteBatchOperation.error
+_OBJC_IVAR_$_SqfliteBatchOperation.results
+__OBJC_METACLASS_RO_$_SqfliteBatchOperation
+__OBJC_$_INSTANCE_METHODS_SqfliteBatchOperation
+__OBJC_$_INSTANCE_VARIABLES_SqfliteBatchOperation
+__OBJC_$_PROP_LIST_SqfliteBatchOperation
+__OBJC_CLASS_RO_$_SqfliteBatchOperation
+_OBJC_CLASSLIST_REFERENCES_$_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_IVAR_$_SqfliteMethodCallOperation.flutterMethodCall
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_IVAR_$_SqfliteMethodCallOperation.flutterResult
+__OBJC_$_CLASS_METHODS_SqfliteMethodCallOperation
+__OBJC_METACLASS_RO_$_SqfliteMethodCallOperation
+__OBJC_$_INSTANCE_METHODS_SqfliteMethodCallOperation
+__OBJC_$_INSTANCE_VARIABLES_SqfliteMethodCallOperation
+__OBJC_$_PROP_LIST_SqfliteMethodCallOperation
+__OBJC_CLASS_RO_$_SqfliteMethodCallOperation
+/Users/alan/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.3/ios/Classes/SqfliteOperation.m
+Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.3/ios/Classes/SqfliteOperation.m
+/Users/alan/Documents
+-[SqfliteDatabase databaseId]
+-[SqfliteDatabase setDatabaseId:]
+-[SqfliteDatabase fmDatabaseQueue]
+-[SqfliteDatabase setFmDatabaseQueue:]
+-[SqfliteDatabase path]
+-[SqfliteDatabase setPath:]
+-[SqfliteDatabase singleInstance]
+-[SqfliteDatabase setSingleInstance:]
+-[SqfliteDatabase inTransaction]
+-[SqfliteDatabase setInTransaction:]
+-[SqfliteDatabase logLevel]
+-[SqfliteDatabase setLogLevel:]
+-[SqfliteDatabase .cxx_destruct]
++[SqflitePlugin registerWithRegistrar:]
+-[SqflitePlugin init]
+-[SqflitePlugin getDatabaseOrError:result:]
+-[SqflitePlugin handleError:result:]
+-[SqflitePlugin handleError:operation:]
++[SqflitePlugin toSqlValue:]
++[SqflitePlugin fromSqlValue:]
++[SqflitePlugin arrayIsEmpy:]
++[SqflitePlugin toSqlArguments:]
++[SqflitePlugin fromSqlDictionary:]
+___35+[SqflitePlugin fromSqlDictionary:]_block_invoke
+___copy_helper_block_e4_20s
+___destroy_helper_block_e4_20s
+-[SqflitePlugin executeOrError:fmdb:call:result:]
+-[SqflitePlugin executeOrError:fmdb:operation:]
+-[SqflitePlugin rsObjectForColumn:index:]
+-[SqflitePlugin query:fmdb:operation:]
+-[SqflitePlugin handleQueryCall:result:]
+___40-[SqflitePlugin handleQueryCall:result:]_block_invoke
+___40-[SqflitePlugin handleQueryCall:result:]_block_invoke_2
+___copy_helper_block_e4_20s24b28s32s
+___destroy_helper_block_e4_20s24s28s32s
+___copy_helper_block_e4_20s24s28b32s
+-[SqflitePlugin insert:fmdb:operation:]
+-[SqflitePlugin handleInsertCall:result:]
+___41-[SqflitePlugin handleInsertCall:result:]_block_invoke
+___41-[SqflitePlugin handleInsertCall:result:]_block_invoke_2
+-[SqflitePlugin update:fmdb:operation:]
+-[SqflitePlugin handleUpdateCall:result:]
+___41-[SqflitePlugin handleUpdateCall:result:]_block_invoke
+___41-[SqflitePlugin handleUpdateCall:result:]_block_invoke_2
+-[SqflitePlugin execute:fmdb:operation:]
+-[SqflitePlugin handleExecuteCall:result:]
+___42-[SqflitePlugin handleExecuteCall:result:]_block_invoke
+___42-[SqflitePlugin handleExecuteCall:result:]_block_invoke_2
+-[SqflitePlugin handleBatchCall:result:]
+___40-[SqflitePlugin handleBatchCall:result:]_block_invoke
+___40-[SqflitePlugin handleBatchCall:result:]_block_invoke_2
++[SqflitePlugin isInMemoryPath:]
++[SqflitePlugin makeOpenResult:recovered:recoveredInTransaction:]
+-[SqflitePlugin handleOpenDatabaseCall:result:]
+___47-[SqflitePlugin handleOpenDatabaseCall:result:]_block_invoke
+___47-[SqflitePlugin handleOpenDatabaseCall:result:]_block_invoke_2
+-[SqflitePlugin handleCloseDatabaseCall:result:]
+___48-[SqflitePlugin handleCloseDatabaseCall:result:]_block_invoke
+___copy_helper_block_e4_20b
+-[SqflitePlugin closeDatabase:callback:]
+___40-[SqflitePlugin closeDatabase:callback:]_block_invoke
+___copy_helper_block_e4_20s24b
+___destroy_helper_block_e4_20s24s
+-[SqflitePlugin deleteDatabaseFile:]
+-[SqflitePlugin handleDeleteDatabaseCall:result:]
+___49-[SqflitePlugin handleDeleteDatabaseCall:result:]_block_invoke
+___copy_helper_block_e4_20s24s28b
+___destroy_helper_block_e4_20s24s28s
+-[SqflitePlugin handleDebugCall:result:]
+___40-[SqflitePlugin handleDebugCall:result:]_block_invoke
+___copy_helper_block_e4_20s24s
+-[SqflitePlugin handleDebugModeCall:result:]
+-[SqflitePlugin handleOptionsCall:result:]
+-[SqflitePlugin handleGetDatabasesPath:result:]
+-[SqflitePlugin handleMethodCall:result:]
+-[SqflitePlugin databaseMap]
+-[SqflitePlugin setDatabaseMap:]
+-[SqflitePlugin mapLock]
+-[SqflitePlugin setMapLock:]
+-[SqflitePlugin singleInstanceDatabaseMap]
+-[SqflitePlugin setSingleInstanceDatabaseMap:]
+-[SqflitePlugin .cxx_destruct]
+__OBJC_METACLASS_RO_$_SqfliteDatabase
+__OBJC_$_INSTANCE_METHODS_SqfliteDatabase
+_OBJC_IVAR_$_SqfliteDatabase._singleInstance
+_OBJC_IVAR_$_SqfliteDatabase._inTransaction
+_OBJC_IVAR_$_SqfliteDatabase.databaseId
+_OBJC_IVAR_$_SqfliteDatabase.fmDatabaseQueue
+_OBJC_IVAR_$_SqfliteDatabase._path
+_OBJC_IVAR_$_SqfliteDatabase._logLevel
+__OBJC_$_INSTANCE_VARIABLES_SqfliteDatabase
+__OBJC_$_PROP_LIST_SqfliteDatabase
+__OBJC_CLASS_RO_$_SqfliteDatabase
+_OBJC_CLASSLIST_REFERENCES_$_.129
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_CLASSLIST_REFERENCES_$_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_CLASSLIST_REFERENCES_$_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_CLASSLIST_REFERENCES_$_.148
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_CLASSLIST_REFERENCES_$_.159
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_CLASSLIST_REFERENCES_$_.162
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_CLASSLIST_REFERENCES_$_.181
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_CLASSLIST_REFERENCES_$_.186
+_OBJC_CLASSLIST_REFERENCES_$_.187
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_CLASSLIST_REFERENCES_$_.198
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_CLASSLIST_REFERENCES_$_.201
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_CLASSLIST_REFERENCES_$_.204
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+___block_descriptor_24_e4_20s_e14_v16?048^c12l
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_SELECTOR_REFERENCES_.217
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.241
+_OBJC_CLASSLIST_REFERENCES_$_.242
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.252
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_SELECTOR_REFERENCES_.260
+__queryAsMapList
+_OBJC_SELECTOR_REFERENCES_.262
+_OBJC_SELECTOR_REFERENCES_.264
+_OBJC_SELECTOR_REFERENCES_.266
+_OBJC_SELECTOR_REFERENCES_.268
+_OBJC_SELECTOR_REFERENCES_.270
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_SELECTOR_REFERENCES_.276
+_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_SELECTOR_REFERENCES_.284
+_OBJC_SELECTOR_REFERENCES_.285
+_OBJC_CLASSLIST_REFERENCES_$_.286
+_OBJC_SELECTOR_REFERENCES_.288
+_OBJC_SELECTOR_REFERENCES_.290
+___block_descriptor_36_e4_20s24bs28s32s_e19_v8?0"FMDatabase"4l
+_OBJC_SELECTOR_REFERENCES_.293
+___block_descriptor_36_e4_20s24s28bs32s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.296
+_OBJC_SELECTOR_REFERENCES_.298
+_OBJC_SELECTOR_REFERENCES_.300
+_OBJC_SELECTOR_REFERENCES_.304
+_OBJC_SELECTOR_REFERENCES_.308
+_OBJC_SELECTOR_REFERENCES_.312
+_OBJC_SELECTOR_REFERENCES_.314
+_OBJC_SELECTOR_REFERENCES_.316
+_OBJC_SELECTOR_REFERENCES_.318
+_OBJC_SELECTOR_REFERENCES_.320
+_OBJC_CLASSLIST_REFERENCES_$_.321
+_OBJC_SELECTOR_REFERENCES_.323
+_OBJC_SELECTOR_REFERENCES_.325
+_OBJC_SELECTOR_REFERENCES_.327
+_OBJC_SELECTOR_REFERENCES_.329
+_OBJC_SELECTOR_REFERENCES_.331
+_OBJC_SELECTOR_REFERENCES_.333
+_OBJC_SELECTOR_REFERENCES_.337
+_OBJC_SELECTOR_REFERENCES_.339
+_logLevel
+_OBJC_SELECTOR_REFERENCES_.347
+_OBJC_SELECTOR_REFERENCES_.349
+_OBJC_SELECTOR_REFERENCES_.352
+_OBJC_SELECTOR_REFERENCES_.355
+_OBJC_SELECTOR_REFERENCES_.357
+_OBJC_SELECTOR_REFERENCES_.359
+_OBJC_CLASSLIST_REFERENCES_$_.360
+_OBJC_SELECTOR_REFERENCES_.362
+_OBJC_SELECTOR_REFERENCES_.364
+_OBJC_SELECTOR_REFERENCES_.368
+_OBJC_CLASSLIST_REFERENCES_$_.369
+_OBJC_SELECTOR_REFERENCES_.371
+___block_descriptor_20_e19_v8?0"FMDatabase"4l
+___block_literal_global
+___block_descriptor_24_e4_20s_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.374
+__lastDatabaseId
+_OBJC_SELECTOR_REFERENCES_.376
+_OBJC_SELECTOR_REFERENCES_.377
+_OBJC_SELECTOR_REFERENCES_.378
+_OBJC_SELECTOR_REFERENCES_.379
+_OBJC_SELECTOR_REFERENCES_.380
+_OBJC_SELECTOR_REFERENCES_.381
+_OBJC_SELECTOR_REFERENCES_.383
+__databaseOpenCount
+_OBJC_SELECTOR_REFERENCES_.388
+___block_descriptor_24_e4_20bs_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.390
+_OBJC_SELECTOR_REFERENCES_.392
+_OBJC_SELECTOR_REFERENCES_.393
+_OBJC_SELECTOR_REFERENCES_.397
+___block_descriptor_28_e4_20s24bs_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.401
+_OBJC_SELECTOR_REFERENCES_.405
+___block_descriptor_32_e4_20s24s28bs_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.407
+___block_descriptor_28_e4_20s24s_e41_v16?0"NSNumber"4"SqfliteDatabase"8^c12l
+_OBJC_SELECTOR_REFERENCES_.414
+_OBJC_SELECTOR_REFERENCES_.416
+_OBJC_CLASSLIST_REFERENCES_$_.419
+_OBJC_SELECTOR_REFERENCES_.421
+_OBJC_SELECTOR_REFERENCES_.423
+_OBJC_SELECTOR_REFERENCES_.425
+_OBJC_SELECTOR_REFERENCES_.427
+_OBJC_SELECTOR_REFERENCES_.429
+_OBJC_SELECTOR_REFERENCES_.431
+_OBJC_SELECTOR_REFERENCES_.433
+_OBJC_SELECTOR_REFERENCES_.435
+_OBJC_SELECTOR_REFERENCES_.437
+_OBJC_SELECTOR_REFERENCES_.439
+_OBJC_SELECTOR_REFERENCES_.441
+_OBJC_SELECTOR_REFERENCES_.443
+_OBJC_SELECTOR_REFERENCES_.445
+_OBJC_SELECTOR_REFERENCES_.447
+_OBJC_SELECTOR_REFERENCES_.449
+__OBJC_$_CLASS_METHODS_SqflitePlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate
+__OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate
+__OBJC_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterPlugin
+__OBJC_PROTOCOL_$_FlutterPlugin
+__OBJC_LABEL_PROTOCOL_$_FlutterPlugin
+__OBJC_CLASS_PROTOCOLS_$_SqflitePlugin
+__OBJC_METACLASS_RO_$_SqflitePlugin
+__OBJC_$_INSTANCE_METHODS_SqflitePlugin
+_OBJC_IVAR_$_SqflitePlugin.databaseMap
+_OBJC_IVAR_$_SqflitePlugin.mapLock
+_OBJC_IVAR_$_SqflitePlugin._singleInstanceDatabaseMap
+__OBJC_$_INSTANCE_VARIABLES_SqflitePlugin
+__OBJC_$_PROP_LIST_SqflitePlugin
+__OBJC_CLASS_RO_$_SqflitePlugin
+/Users/alan/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.3/ios/Classes/SqflitePlugin.m
+Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.3/ios/Classes/SqflitePlugin.m
+__copy_helper_block_e4_20s24s
+__40-[SqflitePlugin handleDebugCall:result:]_block_invoke
+__destroy_helper_block_e4_20s24s28s
+__copy_helper_block_e4_20s24s28b
+__49-[SqflitePlugin handleDeleteDatabaseCall:result:]_block_invoke
+hasSqlLogLevel
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20s24b
+__40-[SqflitePlugin closeDatabase:callback:]_block_invoke
+__copy_helper_block_e4_20b
+__48-[SqflitePlugin handleCloseDatabaseCall:result:]_block_invoke
+__47-[SqflitePlugin handleOpenDatabaseCall:result:]_block_invoke_2
+__47-[SqflitePlugin handleOpenDatabaseCall:result:]_block_invoke
+__40-[SqflitePlugin handleBatchCall:result:]_block_invoke_2
+__40-[SqflitePlugin handleBatchCall:result:]_block_invoke
+__42-[SqflitePlugin handleExecuteCall:result:]_block_invoke_2
+__42-[SqflitePlugin handleExecuteCall:result:]_block_invoke
+__41-[SqflitePlugin handleUpdateCall:result:]_block_invoke_2
+__41-[SqflitePlugin handleUpdateCall:result:]_block_invoke
+__41-[SqflitePlugin handleInsertCall:result:]_block_invoke_2
+__41-[SqflitePlugin handleInsertCall:result:]_block_invoke
+__copy_helper_block_e4_20s24s28b32s
+__destroy_helper_block_e4_20s24s28s32s
+__copy_helper_block_e4_20s24b28s32s
+__40-[SqflitePlugin handleQueryCall:result:]_block_invoke_2
+__40-[SqflitePlugin handleQueryCall:result:]_block_invoke
+hasVerboseLogLevel
+llvm.loop.mustprogress
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20s
+__35+[SqflitePlugin fromSqlDictionary:]_block_invoke
