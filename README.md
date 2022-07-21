@@ -1,3 +1,4 @@
+
 # Add Flutter to existing app
 
 [https://alanrb.medium.com/add-flutter-to-existing-app-cd0d16883437](https://alanrb.medium.com/add-flutter-to-existing-app-cd0d16883437)
@@ -318,3 +319,5 @@ class MainVC: FlutterViewController {
   }
 }
 ```
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
